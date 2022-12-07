@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8b5517ab56.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="yo.png"class="logo">
+                <ul id="sidemenu">
+                   <li><a href="#header">Home</a></li>
+                   <li><a href="#about">About</a></li> 
+                   <li><a href="#services">Services </a></li> 
+                   <li><a href="#portfolio">Research-interests</a></li> 
+                   <li><a href="#contact">Contacts</a></li> 
+                   <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+    <div class="header-text">
+        <p> Hi , I'm</p>
+        <h1>Tharindu<br> <span>Sankhanath,</span><br> <h2> a computer engineering undergraduate</></h2> </h1>
+    </div>
+        </div>
+    </div>
+  
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+<img src="tr.jpg">
+</div>
+                <div class="about-col-2">
+                <h1 clas="sub-title">About Me</h1>
+                <p>I’m Tharindu sankhanath and I was born on 18.10.2001.Now I’m 20 years old.My 
+                    dwelling house is located in yakkala and i’m a pure sinhala buddhist.I’m from an 
+                    extended family which consists of my father,mother ,sister,grandpa,grandma and 
+                    me.My father is working in AMW as an administrative officer and my mother is a 
+                    deputy principal in a leading girls school.I have done my schooling at 
+                    Bandaranayake College Gampaha.I have a bunch of memories in my school life.
+                    ➢ My parents and my grandparents helped me even from my childhood to now in 
+                    any case.I have learned many things from them like how to make independent 
+                    decisions and how to make collective decisions as a whole family. In this 
+                    contemporary society most children cannot survive in the society as they haven’t 
+                    taken part in any social activities but during my childhood my parents allowed me 
+                    to engage in different social activities.So ,my family plays a vital role in my life.
+                    </p>
+                      <div class="tab-title">
+
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skils
+
+                        </p>
+                        <p class="tab-links " onclick="opentab('experience')">Experience
+
+                        </p>
+                        <p class="tab-links" onclick="opentab('education')" >Education
+
+                        </p>
+                      </div>
+                      <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java</span><br>Programming Skills</li>
+                            <li><span>C++</span><br>Programming Skills</li>
+                            <li><span>Web development</span><br>Web Designing</li>
+                        </ul>
+
+                      </div>
+                      <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Databases</span><br>Building databases with sql </li>
+                            <li><span>Overall experience</span><br>Exposure to industrial applications </li>
+                            </ul>
+
+                      </div>
+                      <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018</span><br>Bandaranayake college gampaha </li>
+                            <li><span>2021</span><br>kdu</li>
+                            <li><span> 2022 -future</span><br>Unknown</li>
+                        </ul>
+
+                      </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="services">
+        <div class="container">
+            <h1 clas="sub-title"> My Services</h1>
+            <div class="services-list">
+               <div>
+                <h2>Web design</h2>
+                <p>  Creating websites to the clients .</p>
+                   <a href ="#">Learn more</a>  
+               </div>
+
+               <div>
+                <h2>Software design</h2>
+                <p>  Creating softwares for firms.</p>
+                   <a href ="#">Learn more</a>  
+               </div>
+
+
+               <div>
+                <h2>App development</h2>
+                <p>  Developing smart applications for day today activities. </p>
+                   <a href ="#">Learn more</a>  
+               </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+      <div class="container">
+        <h1 clas="sub-title"> Research Interests </h1>
+      <div class="work-list">
+        <div class="work">
+            <img src="uyp.jpg">
+            <div class="layer">
+                <h3>Engineering  </h3>
+                <p>Engineering is the creative application of science, mathematical methods, 
+                    and empirical evidence to the innovation, design, construction, and maintenance of structures, machines, 
+                    materials, devices, systems, processes, and organizations. The discipline of engineering encompasses a broad range  each with a more specific emphasis on particular  .</p>
+                <a href    ="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="tyt.jpg">
+            <div class="layer">
+                <h3>Human computer interaction  </h3>
+                <p>Human–computer interaction is research in the design and the use of computer technology, which focuses on the interfaces between people and computers. HCI researchers observe the ways humans interact with computers and design technologies that allow humans to interact with computers in novel ways.</p>
+                <a href    ="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="oop.png">
+            <div class="layer">
+                <h3> Artificial  Intelligence</h3>
+                <p>Artificial intelligence is intelligence—perceiving, synthesizing, and infering 
+                    information—demonstrated by machines, as opposed to intelligence displayed by animals and humans.
+                    The term is frequently applied to the project of developing systems endowed with the intellectual processes characteristic of humans.</p>
+                <a href    ="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+      </div>
+      <a href="#" class="btn">see more</a>
+      </div>
+
+    </div>
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+               <div class="contact-left">
+      <h1 class="sub=title"> Contact Me</h1>
+      <p><i class="fa-solid fa-paper-plane"></i>tharindusankhanath@gmail.com</p>
+      <p><i class="fa-sharp fa-solid fa-square-phone"></i>0329472492</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i>       </a>
+        <a href="https://twitter.com">  <i class="fa-brands fa-square-twitter"></i>     </a>
+        <a href="https://www.instagram.com">   <i class="fa-brands fa-square-instagram"></i>    </a>
+        <a href="https://lk.linkedin.com ">  <i class="fa-brands fa-linkedin"></i>     </a>
+
+
+
+      </div>
+      <a href="yt.pdf" download class="btn btn2">Download CV</a>
+               </div> 
+               <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type ="text" name="Nmae" placeholder="your name" required>
+                    <input type ="email" name="email" placeholder="your email" required>
+<textarea name="Message" rows="6" placeholder="your message">
+</textarea>
+<button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+                <span id="msg">
+
+                </span>
+            </div> 
+            </div>
+        </div>
+        <div class="copyright">
+            <p>All rights reserved @ copyright </p>
+            
+        </div>
+    </div>
+   <script>
+
+var tablinks = document.getElementsByClassName("tab-links ");
+
+var tabcontents = document.getElementsByClassName("tab-contents ");
+function opentab(tabname){
+
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+}
+
+
+   </script>
+   <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+        
+    }
+   </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwJ_NRZFW0r3FzFiX7D2Nscl_TE0GTeYMrVHsfg_w7fNd5Am6krGLrj9RFaoUbUoEKk/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =  document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "message sent successfully"
+            setTimeout(function()
+            {
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
